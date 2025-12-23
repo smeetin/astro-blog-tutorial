@@ -2,6 +2,24 @@
     box-sizing: border-box;
 }
 
+html.dark {
+    background-color: #09090b;
+    color: #fff;
+}
+
+a {
+    color: inherit;
+}
+
+.dark .menu {
+    background-color: #fff;
+    color: #09090b;
+}
+
+.dark .nav-links a {
+    color: #fff;
+}
+
 :root {
     font-family: Inter, sans-serif;
     font-feature-settings:
