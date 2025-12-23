@@ -83,8 +83,13 @@ code {
 
 .nav-links {
     width: 100%;
+    top: 3rem;
+    /*max-height: calc(100vh - 3rem);*/
+    background-color: #09090b;
+    position: absolute;
     display: none;
     margin: 0;
+    z-index: 10;
 }
 
 .nav-links a {
@@ -111,9 +116,9 @@ code {
     .nav-links {
         display: inline-flex;
         gap: 1.4rem;
-        position: static;
+        position: relative;
+        top: 0;
         width: auto;
-        background: none;
     }
 
     .nav-links a {
